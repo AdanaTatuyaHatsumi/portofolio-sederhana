@@ -2,15 +2,105 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
+    background-color: aliceblue;
+}
+@media (max-width:1999px) {
+    .img-profile{
+        width: 200px;
+        height: 200px;
+    }
+    .img-skills{
+        width: 45px;
+        height: 45px;
+        margin: 5px;
+    }
+    h1{
+        font-size: 32px;
+    }
+    h7{
+        font-size: 18px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    p{
+        font-size: 16px;
+    }
+    li{
+        font-size: 16px;
+    }
+    .box-2{
+        width: 80%;
+        display: flex;
+        float: left;
+    }
 }
 @media(max-width:1023px){
-
+    .img-profile{
+        width: 150px;
+        height: 150px;
+    }
+    .img-skills{
+        width: 40px;
+        height: 40px;
+        margin: 4.5px;
+    }
+    h1{
+        font-size: 27px;
+    }
+    h7{
+        font-size: 16px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    p{
+        font-size: 14px;
+    }
+    li{
+        font-size: 14px;
+    }
+    .box-2{
+        width: 80%;
+        display: flex;
+        float: left;
+    }
+}
+@media(max-width:767px){
+    .img-profile{
+        width: 150px;
+        height: 150px;
+    }
+    .img-skills{
+        width: 40px;
+        height: 40px;
+        margin: 4.5px;
+    }
+    h1{
+        font-size: 27px;
+    }
+    h7{
+        font-size: 16px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    p{
+        font-size: 14px;
+    }
+    li{
+        font-size: 14px;
+    }
+    .box-2{
+        width: 80%;
+        display: inline;
+    }
 }
 .container{
     width: 100%;
+    margin-bottom: 10px;
 }
 .rectangle{
-    background-color: aqua;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,36 +109,26 @@ body{
     width: 80%;
     display: flex;
     float: left;
-    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
 }
 .img-profile{
-    width: 200px;
-    height: 200px;
     border-radius: 100px;
     margin: 20px;
-    margin-top: 0;
-}
-.img-skills{
-    width: 45px;
-    height: 45px;
-    margin: 5px;
 }
 .text-1{
     padding: 40px;
-    width: 60%;
-    background-color: brown;
+    color: navy;
 }
 .box-2{
-    width: 80%;
-    display: flex;
-    float: left;
-    background-color: bisque;
+    background-color: white;
+    border-radius: 5px;
 }
 p{
     text-align: justify;
 }
 .box-3{
-    padding: 10px;
+    margin: 10px;
     width: 100%;
 }
 ul{
@@ -58,8 +138,9 @@ ul{
     border: 1px;
 }
 a{
-    color: thistle;
+    color: blue;
+    text-decoration: none;
 }
 a:hover {
-    color: blue;
+    color: red;
 }
