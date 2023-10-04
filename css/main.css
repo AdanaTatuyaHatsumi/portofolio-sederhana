@@ -106,6 +106,40 @@ body{
         padding: 0px;
     }
 }
+@media(max-width:541px){
+    .img-profile{
+        width: 120px;
+        height: 120px;
+    }
+    .img-skills{
+        width: 40px;
+        height: 40px;
+        margin: 4.5px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    h7{
+        font-size: 15px;
+    }
+    h3{
+        font-size: 17px;
+    }
+    p{
+        font-size: 13px;
+    }
+    li{
+        font-size: 13px;
+    }
+    .box-2{
+        width: 80%;
+        display: inline;
+        padding: 10px;
+    }
+    .box-3{
+        padding: 0px;
+    }
+}
 .container{
     width: 100%;
     margin-bottom: 10px;
