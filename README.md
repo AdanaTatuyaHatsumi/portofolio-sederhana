@@ -4,7 +4,7 @@
 
 ## PROFILE :
 - Kasirun Alfauzi BM Sitorus
-- Back End Developer
+- Full Stack Developer
 
 ## EDUCATION :
 - STMIK Profesional Makassar (2019-2023)
@@ -21,7 +21,7 @@
 
 ## SKILLS :
         
-- Web Developer
+- Back End Developer
 - Front End Developer
 - Mobile Application Developer For Android
 
